@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/afinju.png";
+import emotion from "../../Assets/Projects/sabinus.png";
+import editor from "../../Assets/Projects/quickbunny.png";
+import chatify from "../../Assets/Projects/sofri.png";
+import suicide from "../../Assets/Projects/pikinology.png";
+import bitsOfCode from "../../Assets/Projects/niptrex.png";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Sofri Pro"
+              description="Financial services accessible wherever you are and whenever you want: mobile banking transactions, reliable and instant debit card, and the most effective investment tools "
               ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://sofrisofri.com/"
             />
           </Col>
 
@@ -36,10 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Niptrex"
+              description="Niptrex is a start-up talent-hiring agency that specializes in finding and recruiting for job positions on behalf of employers. These agencies work with companies of various sizes and industries to help them fill their job vacancies with qualified and suitable candidates."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,10 +46,24 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="QuickBunny"
+              description="QuickBunny is a courier aggregation service provider that is focused on delivering all your packages to your doorstep,
+
+They have the finest professionally trained and vetted independent riders dedicated to delivering packages using bicycles, motorbikes, cars, and minivans.
+
+They organize our Hoppers to prioritize speed and safety to your convenience for same-day or scheduled delivery."
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://play.google.com/store/apps/details?id=ng.quickbunny.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Sabinus App"
+              description="For lovers of the African culture, Sabinus is the first-word game that entertains and sharpens your pidgin language skills."
+              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://play.google.com/store/apps/details?id=io.sabinus.app"
             />
           </Col>
 
@@ -58,10 +71,12 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="Afinju"
+              description="Welcome to Afinju, where art comes alive and culture finds its visual voice. Our journey began in the captivating world of photography back in 2012. Rooted in a profound appreciation for the essence of culture, especially within the rich tapestry of African heritage, we embarked on a quest to capture its soul-stirring beauty.
+
+              But our story didn’t end there. It evolved into a passion that transcends creation and ventures into the realm of art curation. Afinju Gallery is more than just a space; it’s a gateway to the heart and soul of artistry."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://afinju.co.uk/"
             />
           </Col>
 
@@ -69,22 +84,14 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+              title="Pikinology"
+              description="Pikinology is derived from the word “Pikin”. Pikin meaning child comes from the Portuguese peqquenino for “very small”. This was now adopted by mostly anglophone West African countries like Nigeria, Cameroon, Sierra Leone and Liberia to depict the
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              African Child
+              
+              The depiction of the African child has always been one of hungry children, who are disease ridden, often homeless and parentless due to war and conflicts. It is very rare to see a positive image of an African child in the media and this is what Pikinology is aiming to achieve."
+              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://pikinology.com/"
             />
           </Col>
         </Row>

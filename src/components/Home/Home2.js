@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/profile.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,42 +19,44 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              I am an experienced Javascript developer with 5+ years in the
+              industry. <br /> <br />I have a strong foundation in web
+              development and a passion for creating intuitive and interactive
+              user experiences. I have experience building and maintaining
+              full-stack web applications, with a focus on the front-end using{" "}
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+                <b className="purple"> React </b>{" "}
+              </i>{" "}
+              and the back-end using{" "}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> Node.js.</b>{" "}
               </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              <br /> <br />I am experienced in using modern JavaScript libraries
+              and frameworks, such as{" "}
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                {" "}
+                <b className="purple">React, Redux, and Express</b>{" "}
               </i>
-              &nbsp; like
+              , to build scalable and performant web applications. I have also
+              developed a strong understanding of RESTful API design and
+              development, as well as experience with data modeling and
+              management using{" "}
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> MongoDB.</b>{" "}
               </i>
+              <br /> <br />
+              In addition to my technical skills, I am a strong communicator and
+              team player, with the ability to collaborate effectively with
+              cross- functional teams.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid  img-circle "
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
@@ -67,7 +69,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/captainPrime"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/captainprime007?s=21"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +89,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/taiwo-oyindamola-347081171/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +99,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://instagram.com/dprimetech?igshid=NGVhN2U2NjQ0Yg=="
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
