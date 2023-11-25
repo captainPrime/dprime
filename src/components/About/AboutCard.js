@@ -7,14 +7,14 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "left" }}>
             Hi Everyone, I am{" "}
-            <span className="purple">Taiwo Oyindamola Ezekiel</span>
+            <span className="purple">Taiwo Oyindamola Ezekiel </span>
             from <span className="purple"> Lagos, Nigeria.</span>
             <br />
             I am currently employed as a software developer at CarbonTech.
             <br />
-            I have completed Integrated Bachelor of Technology in Computer
+            I have completed my Bachelor of Technology in Computer
             Engineering at Yaba College of Technology.
             <br />
             <br />
@@ -36,9 +36,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "It’s not at all important to get it right the first time. It’s vitally important to get it right the last time."{" "}
           </p>
-          <footer className="blockquote-footer">Dprime</footer>
+          <footer className="blockquote-footer">Andrew Hunt and David Thomas</footer>
         </blockquote>
       </Card.Body>
     </Card>

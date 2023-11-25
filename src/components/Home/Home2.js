@@ -19,25 +19,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am an experienced Javascript developer with 5+ years in the
-              industry. <br /> <br />I have a strong foundation in web
-              development and a passion for creating intuitive and interactive
+              I am an experienced Software Developer with 5+ years in the
+              industry. <br /> <br />I have a strong foundation in  <b className="purple"> Web
+              and Mobile development</b> and a passion for creating intuitive and interactive
               user experiences. I have experience building and maintaining
               full-stack web applications, with a focus on the front-end using{" "}
               <i>
                 <b className="purple"> React </b>{" "}
-              </i>{" "}
-              and the back-end using{" "}
-              <i>
-                <b className="purple"> Node.js.</b>{" "}
-              </i>
+              </i>{" "}.
+              
               <br /> <br />I am experienced in using modern JavaScript libraries
               and frameworks, such as{" "}
               <i>
                 {" "}
                 <b className="purple">React, Redux, and Express</b>{" "}
               </i>
-              , to build scalable and performant web applications. I have also
+              , to build scalable and performant applications. I have also
               developed a strong understanding of RESTful API design and
               development, as well as experience with data modeling and
               management using{" "}

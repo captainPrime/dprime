@@ -72,9 +72,7 @@ They organize our Hoppers to prioritize speed and safety to your convenience for
               imgPath={leaf}
               isBlog={false}
               title="Afinju"
-              description="Welcome to Afinju, where art comes alive and culture finds its visual voice. Our journey began in the captivating world of photography back in 2012. Rooted in a profound appreciation for the essence of culture, especially within the rich tapestry of African heritage, we embarked on a quest to capture its soul-stirring beauty.
-
-              But our story didn’t end there. It evolved into a passion that transcends creation and ventures into the realm of art curation. Afinju Gallery is more than just a space; it’s a gateway to the heart and soul of artistry."
+              description="Afinju is an art gallery platform. From contemporary masterpieces to avant-garde installations, they curate a collection that captivates and inspires."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://afinju.co.uk/"
             />
@@ -85,11 +83,9 @@ They organize our Hoppers to prioritize speed and safety to your convenience for
               imgPath={suicide}
               isBlog={false}
               title="Pikinology"
-              description="Pikinology is derived from the word “Pikin”. Pikin meaning child comes from the Portuguese peqquenino for “very small”. This was now adopted by mostly anglophone West African countries like Nigeria, Cameroon, Sierra Leone and Liberia to depict the
+              description="Pikinology are designing and creating culturally relevant clothes that speaks to the history and culture of every African child and allows them to be proud of who they are and where they are from
 
-              African Child
-              
-              The depiction of the African child has always been one of hungry children, who are disease ridden, often homeless and parentless due to war and conflicts. It is very rare to see a positive image of an African child in the media and this is what Pikinology is aiming to achieve."
+Through each button, fabric, trim, lining, illustrations, graphics et al, we want to tell our own stories."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               demoLink="https://pikinology.com/"
             />
