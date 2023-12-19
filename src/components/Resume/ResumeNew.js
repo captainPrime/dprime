@@ -25,7 +25,7 @@ function ResumeNew() {
         </h1>
 
         <h3 style={{ fontSize: "1.1em", paddingBottom: "20px" }}>
-          1 out of <strong className="purple">3</strong> pages
+          1 out of <strong className="purple">2</strong> pages
         </h3>
         {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button

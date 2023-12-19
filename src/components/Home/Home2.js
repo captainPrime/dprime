@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/profile.jpeg";
+import myImg from "../../Assets/profile.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -20,14 +20,15 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I am an experienced Software Developer with 5+ years in the
-              industry. <br /> <br />I have a strong foundation in  <b className="purple"> Web
-              and Mobile development</b> and a passion for creating intuitive and interactive
-              user experiences. I have experience building and maintaining
-              full-stack web applications, with a focus on the front-end using{" "}
+              industry. <br /> <br />I have a strong foundation in{" "}
+              <b className="purple"> Web and Mobile development</b> and a
+              passion for creating intuitive and interactive user experiences. I
+              have experience building and maintaining full-stack web
+              applications, with a focus on the front-end using{" "}
               <i>
                 <b className="purple"> React </b>{" "}
-              </i>{" "}.
-              
+              </i>{" "}
+              .
               <br /> <br />I am experienced in using modern JavaScript libraries
               and frameworks, such as{" "}
               <i>
